@@ -1,0 +1,15 @@
+/*css文件*/
+.divtree{
+	background-color:#3079ed;
+	
+}
+.tree2{
+	display: block;
+	border: 2px solid lightgrey;
+	color: lightgrey;
+	padding: 5px;
+	margin: 15px;
+}
+.tree2 li{
+	
+}
