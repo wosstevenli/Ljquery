@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery post ajax method</title>
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $.post("testpost.php", {
+                    name: "lishuang",
+                    url: "www.lishuang.com"
+                }, function(data, status) {
+                    alert("数据：\n" + data + "\n状态：" + status);
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="div3">test jQuery post</div>
+    <button>kuailai</button>
+</body>
+
+</html>
